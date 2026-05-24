@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "version": "1.1",
+    "description": "LXTI旅行人格测评 · 动态出题题库",
+    "last_updated": "2026-05-05"
+  },
+  "dimensions": ["LE", "XT", "SI", "IH"],
+  "questions": [
+    {
+      "id": "LE-01",
+      "dimension": "LE",
+      "category": "社交维度探测",
+      "type": "single_choice",
+      "question": "想象一下你的理想旅行，你更偏向哪种出行方式？",
+      "options": [
+        {"text": "一个人说走就走，自由自在", "scores": {"L": 2, "E": 0}},
+        {"text": "和最好的朋友/伴侣一起，互相拍照聊天", "scores": {"L": 0, "E": 2}},
+        {"text": "三五成群的热闹小团体", "scores": {"L": 0, "E": 2}},
+        {"text": "视旅伴是谁而定——和亲近的人愿意同行，陌生人宁肯独行", "scores": {"L": 1, "E": 1}}
+      ]
+    },
+    {
+      "id": "LE-02",
+      "dimension": "LE",
+      "category": "社交维度探测",
+      "type": "single_choice",
+      "question": "一整天的旅行结束后回到住处，你更想：",
+      "options": [
+        {"text": "复盘今天的照片/感受，享受一个人的安静", "scores": {"L": 2, "E": 0}},
+        {"text": "和朋友聊聊今天的经历，分享感受", "scores": {"L": 0, "E": 2}},
+        {"text": "和新认识的朋友一起聚聚，继续热闹", "scores": {"L": 0, "E": 2}}
+      ]
+    },
+    {
+      "id": "LE-03",
+      "dimension": "LE",
+      "category": "社交维度探测",
+      "type": "single_choice",
+      "question": "旅行中遇到陌生人主动搭话，你通常：",
+      "options": [
+        {"text": "礼貌回应但希望对话不要持续太久——我的社交能量有限", "scores": {"L": 2, "E": 0}},
+        {"text": "开心聊天，旅途中认识新朋友是意外的惊喜", "scores": {"L": 0, "E": 2}}
+      ]
+    },
+    {
+      "id": "LE-04",
+      "dimension": "LE",
+      "category": "社交维度探测",
+      "type": "single_choice",
+      "question": "如果旅伴想去的地方和你完全不同，你更可能：",
+      "options": [
+        {"text": "各玩各的，晚上汇合——自由最重要", "scores": {"L": 2, "E": 0}},
+        {"text": "努力协商折中方案——同行人的感受很重要", "scores": {"L": 0, "E": 2}}
+      ]
+    },
+    {
+      "id": "XT-01",
+      "dimension": "XT",
+      "category": "节奏维度探测",
+      "type": "single_choice",
+      "question": "以下哪种旅行日程更符合你的天性？",
+      "options": [
+        {"text": "一天最多1-2个点，剩下的时间随缘逛/发呆", "scores": {"X": 2, "T": 0}},
+        {"text": "合理安排3-4个点，饱满但不紧迫", "scores": {"X": 1, "T": 1}},
+        {"text": "效率拉满，能去几个去几个，晚上回来复盘今日战果", "scores": {"X": 0, "T": 2}}
+      ]
+    },
+    {
+      "id": "XT-02",
+      "dimension": "XT",
+      "category": "节奏维度探测",
+      "type": "single_choice",
+      "question": "对于旅行中的\"早出发\"，你的态度是：",
+      "options": [
+        {"text": "坚决拒绝——度假就是要睡到自然醒", "scores": {"X": 2, "T": 0}},
+        {"text": "如果确实有必要（比如看日出/赶车），可以早起", "scores": {"X": 1, "T": 1}},
+        {"text": "每天都早起——清晨是最好的旅行时间，人少光好", "scores": {"X": 0, "T": 2}}
+      ]
+    },
+    {
+      "id": "XT-03",
+      "dimension": "XT",
+      "category": "节奏维度探测",
+      "type": "single_choice",
+      "question": "你精心规划的行程因为下雨/闭馆/交通被迫打乱时：",
+      "options": [
+        {"text": "完全OK，换个地方逛或者找家咖啡馆发呆也一样", "scores": {"X": 2, "T": 0}},
+        {"text": "有一点不爽但能接受，PlanB也行", "scores": {"X": 1, "T": 1}},
+        {"text": "非常难受——那是我查了好久做的攻略啊！", "scores": {"X": 0, "T": 2}}
+      ]
+    },
+    {
+      "id": "XT-04",
+      "dimension": "XT",
+      "category": "节奏维度探测",
+      "type": "single_choice",
+      "question": "一次5-7天的旅行，你对\"换城市/换住宿\"的态度：",
+      "options": [
+        {"text": "最好住在一个地方不动，每天辐射出去玩", "scores": {"X": 2, "T": 0}},
+        {"text": "可以接受换1-2次，有新鲜感", "scores": {"X": 1, "T": 1}},
+        {"text": "每天都换也行，把周边城市全扫一遍", "scores": {"X": 0, "T": 2}}
+      ]
+    },
+    {
+      "id": "SI-01",
+      "dimension": "SI",
+      "category": "体验维度探测",
+      "type": "single_choice",
+      "question": "如果旅行结束只能带一种记忆回家，你更想带走的是：",
+      "options": [
+        {"text": "一张足以当壁纸的绝美风景大片", "scores": {"S": 2, "I": 0}},
+        {"text": "一个让你回味无穷的当地人文故事", "scores": {"S": 0, "I": 2}}
+      ]
+    },
+    {
+      "id": "SI-02",
+      "dimension": "SI",
+      "category": "体验维度探测",
+      "type": "single_choice",
+      "question": "关于旅行拍照，以下哪句最接近你的想法：",
+      "options": [
+        {"text": "\"这里好美！不拍下来我会后悔一辈子\"", "scores": {"S": 2, "I": 0}},
+        {"text": "\"看过就够了，眼睛才是最好的相机\"", "scores": {"S": 0, "I": 2}},
+        {"text": "\"可以拍，但不想为了拍照影响旅行体验\"", "scores": {"S": 1, "I": 1}}
+      ]
+    },
+    {
+      "id": "SI-03",
+      "dimension": "SI",
+      "category": "体验维度探测",
+      "type": "single_choice",
+      "question": "去一个历史遗址/博物馆，你更喜欢：",
+      "options": [
+        {"text": "用眼睛看建筑的美感和空间的氛围——感受就够了", "scores": {"S": 2, "I": 0}},
+        {"text": "仔细阅读每一块解说牌——了解背后的故事才有意义", "scores": {"S": 0, "I": 2}}
+      ]
+    },
+    {
+      "id": "SI-04",
+      "dimension": "SI",
+      "category": "体验维度探测",
+      "type": "single_choice",
+      "question": "如果只能去一个地方（互斥选择），你选：",
+      "options": [
+        {"text": "自然奇观——雪山、峡谷、极光、海滩落日", "scores": {"S": 2, "I": 0}},
+        {"text": "人文遗产——古城、遗址、博物馆、千年古建", "scores": {"S": 0, "I": 2}}
+      ]
+    },
+    {
+      "id": "IH-01",
+      "dimension": "IH",
+      "category": "舒适维度探测",
+      "type": "single_choice",
+      "question": "对于旅行住宿，以下哪句话最能形容你：",
+      "options": [
+        {"text": "住宿必须舒适——干净卫生是底线，最好还有设计感", "scores": {"I": 2, "H": 0}},
+        {"text": "干净能洗澡就行——只是一个睡觉的地方", "scores": {"I": 1, "H": 1}},
+        {"text": "帐篷、青旅、通铺都可以——在路上的感觉最重要", "scores": {"I": 0, "H": 2}}
+      ]
+    },
+    {
+      "id": "IH-02",
+      "dimension": "IH",
+      "category": "舒适维度探测",
+      "type": "single_choice",
+      "question": "旅行中的体力消耗，你的态度是：",
+      "options": [
+        {"text": "旅行不应该比上班还累——保持舒适最重要", "scores": {"I": 2, "H": 0}},
+        {"text": "可以累一点，但晚上要能好好休息恢复", "scores": {"I": 1, "H": 1}},
+        {"text": "累是旅行的一部分——走到走不动为止，明天继续", "scores": {"I": 0, "H": 2}}
+      ]
+    },
+    {
+      "id": "IH-03",
+      "dimension": "IH",
+      "category": "舒适维度探测",
+      "type": "single_choice",
+      "question": "以下哪项是你在旅行中绝对不能妥协的？",
+      "options": [
+        {"text": "睡眠质量——睡不好整个旅行都毁了", "scores": {"I": 2, "H": 0}},
+        {"text": "餐饮品质——吃不好心情会崩", "scores": {"I": 2, "H": 0}},
+        {"text": "交通舒适度——长时间颠簸/拥挤的车程是噩梦", "scores": {"I": 2, "H": 0}},
+        {"text": "其实都可以将就——我是来探索的不是来享受的", "scores": {"I": 0, "H": 2}}
+      ]
+    },
+    {
+      "id": "IH-04",
+      "dimension": "IH",
+      "category": "舒适维度探测",
+      "type": "single_choice",
+      "question": "面对\"很美但条件艰苦\"的目的地（没热水、蚊虫多、路难走）：",
+      "options": [
+        {"text": "算了放弃——再美的风景也不值得受罪", "scores": {"I": 2, "H": 0}},
+        {"text": "咬咬牙可以接受——反正就几天", "scores": {"I": 1, "H": 1}},
+        {"text": "完全不介意——甚至觉得这才是原汁原味的旅行", "scores": {"I": 0, "H": 2}}
+      ]
+    },
+    {
+      "id": "SP-01",
+      "dimension": "auxiliary",
+      "category": "消费习惯探测",
+      "type": "single_choice",
+      "question": "在旅行预算有限的情况下，你最愿意把钱花在哪里？",
+      "options": [
+        {"text": "住宿——住得好是第一位的", "scores": {"aux": "accommodation"}},
+        {"text": "美食——吃是旅行的灵魂", "scores": {"aux": "food"}},
+        {"text": "体验项目——好玩的都值得花钱", "scores": {"aux": "experience"}},
+        {"text": "交通——省时间就是省钱", "scores": {"aux": "transport"}}
+      ]
+    },
+    {
+      "id": "SP-02",
+      "dimension": "auxiliary",
+      "category": "消费习惯探测",
+      "type": "single_choice",
+      "question": "以下哪种旅行消费方式最像你：",
+      "options": [
+        {"text": "做好预算严格执行，精打细算型", "scores": {"aux": "budget_strict"}},
+        {"text": "大项规划好，小项随性花", "scores": {"aux": "budget_flexible"}},
+        {"text": "出来玩开心最重要，不太计较", "scores": {"aux": "budget_loose"}}
+      ]
+    },
+    {
+      "id": "TP-01",
+      "dimension": "auxiliary",
+      "category": "出行时机探测",
+      "type": "single_choice",
+      "question": "你能接受景区人多的程度是：",
+      "options": [
+        {"text": "完全不行——看到人多我就想跑", "scores": {"aux": "crowd_averse"}},
+        {"text": "可以接受合理的人流量——毕竟好地方大家都想去", "scores": {"aux": "crowd_tolerant"}},
+        {"text": "人多热闹也有它的乐趣", "scores": {"aux": "crowd_loving"}}
+      ]
+    },
+    {
+      "id": "TP-02",
+      "dimension": "auxiliary",
+      "category": "出行时机探测",
+      "type": "single_choice",
+      "question": "你更倾向于哪个季节/时段旅行？",
+      "options": [
+        {"text": "旺季——天气好、体验完整", "scores": {"aux": "peak_season"}},
+        {"text": "平季——性价比高、各方面均衡", "scores": {"aux": "shoulder_season"}},
+        {"text": "淡季——人少价低，条件差一点无所谓", "scores": {"aux": "off_season"}}
+      ]
+    },
+    {
+      "id": "FP-01",
+      "dimension": "auxiliary",
+      "category": "特殊偏好探测",
+      "type": "multi_choice",
+      "question": "以下哪些是你在旅行中\"绝对不能忍\"的？可多选：",
+      "options": [
+        {"text": "行程太赶，全程在赶路", "scores": {"aux": "hate_rush"}},
+        {"text": "行程太闲，觉得在浪费时间", "scores": {"aux": "hate_boring"}},
+        {"text": "人多拥挤到寸步难行", "scores": {"aux": "hate_crowd"}},
+        {"text": "住宿条件太差影响睡眠", "scores": {"aux": "hate_bad_sleep"}},
+        {"text": "吃不到好吃的", "scores": {"aux": "hate_bad_food"}},
+        {"text": "天气一直不好", "scores": {"aux": "hate_bad_weather"}},
+        {"text": "同行人一直在抱怨", "scores": {"aux": "hate_complainer"}}
+      ]
+    },
+    {
+      "id": "FP-02",
+      "dimension": "auxiliary",
+      "category": "特殊偏好探测",
+      "type": "single_choice",
+      "question": "对于旅行目的地的选择，你更偏向：",
+      "options": [
+        {"text": "大众经典——经过验证的好地方不会错", "scores": {"aux": "classic"}},
+        {"text": "小众冷门——不想去\"人人都去过\"的地方", "scores": {"aux": "niche"}},
+        {"text": "都可以，关键是玩法和体验", "scores": {"aux": "flexible"}}
+      ]
+    }
+  ]
+}
