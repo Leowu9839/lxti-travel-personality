@@ -1,5 +1,10 @@
 # LXTI 旅行人格测评
 
+
+[![Stars](https://img.shields.io/github/stars/Leowu9839/=social)](https://github.com/Leowu9839/lxti-travel-personality/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> 🏠 这是 [Leo's AI Skill Workshop](https://github.com/Leowu9839/leos-workshop) 的 6 大 Skill 之一，点击查看完整项目集。
 > 原创文旅社交测评工具 · 16 型唯一人格 · 动态自适应出题 · 专属头像 + 定制攻略
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -10,7 +15,7 @@
 ## ⚡ 安装
 
 ```bash
-git clone https://gitee.com/leos-workshop/lxti-travel-personality.git
+git clone https://github.com/Leowu9839/lxti-travel-personality.git
 cp -r lxti-travel-personality ~/.codex/skills/
 ```
 
@@ -121,3 +126,18 @@ MIT License · 欢迎使用、修改、分发。
 ---
 
 *Made with ❤️ for travelers who refuse generic itineraries.*
+
+---
+
+## 🔗 相关项目
+
+这是 [Leo's AI Skill Workshop](https://github.com/Leowu9839/leos-workshop) 的一部分，更多 Skill：
+
+| Skill | 场景 |
+|:---|:---|
+| 🏛️ [制度顾问](https://github.com/Leowu9839/policy-counsel) | 企业合规 / 政策分析 |
+| 🐕 [数据宝藏猎犬](https://github.com/Leowu9839/data-treasure-hound) | 数据调研 / 信息挖掘 |
+| ⚙️ [工程化 Agent](https://github.com/Leowu9839/engineering-agent) | 开发提效 / 自动化 |
+| 💎 [富人生活顾问](https://github.com/Leowu9839/luxury-experience-designer) | 生活方式 / 品质提升 |
+| ✈️ [LXTI 旅行人格](https://github.com/Leowu9839/lxti-travel-personality) | 旅行规划 / 人格测试 |
+| 🔍 [拆穿 Skill](https://github.com/Leowu9839/deconstruct-skill) | 批判思维 / 信息甄别 |
